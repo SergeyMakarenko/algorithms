@@ -7,7 +7,7 @@ using namespace std;
 vector<int> z_function(string const& str)
 {
 	vector<int> Z(str.size());
-	Z[0] = str.size();
+	Z[0] = 0;
 
 	int l = 1;
 	int r = 0;
